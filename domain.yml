@@ -1,31 +1,26 @@
 intents:
   - greet
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - find_time_zone
+  - find_time_zone_for_location
+  - city_info
+  - thanks
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! I am a time zone Bot."
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_ask_location:
+  - text: "Which city do you need the time zone of?"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_finding_timezone:
+  - text: "Ok, give me a second to look it up..."
 
-  utter_happy:
+  utter_you_are_welcome:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "You are welcome!"
 
 session_config:
   session_expiration_time: 60
