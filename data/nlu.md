@@ -19,7 +19,7 @@
 - can you find me a time zone?
 - what time is it?
 
-## intent:find_time_zone_for location
+## intent:find_time_zone_for_location
 - what is the time zone of London?
 - time zone of Lisbon
 - do you know the time zone of Berlin

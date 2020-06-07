@@ -10,7 +10,7 @@
 * city_info
   - utter_finding_time_zone
 * thanks
-  - utter_you_are welcome
+  - utter_you_are_welcome
   - utter_goodbye
 
 ## ask for time zone short
@@ -19,5 +19,5 @@
 * find_time_zone_for_location
   - utter_finding_time_zone
 * thanks
-  - utter_you_are welcome
+  - utter_you_are_welcome
   - utter_goodbye
