@@ -14,6 +14,9 @@ slots:
     type: text
     auto_fill: True
 
+actions:
+  - action_show_time_zone
+
 responses:
   utter_greet:
   - text: "Hey! I am a time zone Bot."
