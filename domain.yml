@@ -6,6 +6,9 @@ intents:
   - city_info
   - thanks
 
+entities:
+  - city
+
 responses:
   utter_greet:
   - text: "Hey! I am a time zone Bot."
